@@ -1,0 +1,75 @@
+Version 1.0
+
+i) Initial version Release
+
+Version 1.1
+
+i) resolved social icon error
+ii) added spinner setting
+iii) removed console error
+iv) added font awesome picker search
+v) resolved slider dot color issue
+
+Version 1.2
+
+i)Added logo resizer setting
+ii)Added Slider opacity Setting in Slider section
+iii)Added Pre-loader opacity setting in General Settings 
+iv)Added Scroll Top Aligment Setting
+v)Added Hide/Show Scroll Top 
+vi)Added Background color setting For scroll top
+vii))Added Background Hover color setting For scroll top
+
+Version 1.3
+
+i) Optimized css
+ii) Updated amp
+iii) Reduses file size 
+iv) Improve theme speed
+v) Updated rtl
+vi) Resolved theme check, theme sniffer and php errors
+vii) Updated menu
+viii) Updated slider section
+xi) Updated customizer setting
+x) Resolved bug and console error
+
+Version 1.3.1
+i) Added Bundle banner
+
+Version 1.3.2
+i) Added selctive refresh
+ii) Resolved demo importer issues
+
+Version 1.3.3
+
+i) Improved Setup Wizard
+
+Version 1.3.4
+
+i) Minor bug fixed
+
+Version 1.3.5
+
+i) Minor bug fixed
+
+Version 1.3.6
+
+i) Update Setup-wizard
+
+
+Version 1.3.7
+
+i) Update text editor
+
+Version 1.3.8 06/04/21
+
+i) Replace the variable in the theme wizard
+
+Version 1.3.9
+
+i) Added new customizer settings.
+ii) Added ive in ibtana json and css.
+iii) Updated inline style.
+
+Version 1.4
+1) Fixed Bugs.

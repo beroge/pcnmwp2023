@@ -1,0 +1,239 @@
+:root{
+  --color-white:#ffffff;
+  --color-black-12:#121212;
+}
+/*-------------- media section ---------------*/
+@media screen and (max-width: 767px) and (min-width: 0px){ 
+  .socialbox,#contact-details{
+    padding: 0;
+    text-align: center;
+  }
+  .socialbox i,#contact-details span,.socialbox a:last-child i,#site_top .cart{
+    border: none;
+  }
+  #newsletter input[type="submit"],#appointment .app-content,#pricing-plan .plan-content p,.logo,.small-title,#our-features,#our-records .record-content p{
+    position: unset !important;
+  }
+  #site_top .cart span{
+    margin-left: 0;
+  }
+  #site_top .cart{
+    left: -10px;
+  }
+  #contact-details i{
+    display: block;
+    margin: 10px 0 0;
+  }
+  #pricing-plan .owl-nav,#slider p,#slider ol.carousel-indicators,#slider .slide_nav i,.slider-box span,.owl-nav,#our-records .record-content p:before{
+    display: none;
+  }
+  #footer, .outer-footer,#footer ul li,#footer a.testimonial,#appointment,#our-process,#newsletter,#latest-news,#our-team,#why-choose-us,#our-products,#pricing-plan,#slider .slider-box, #slider h2, #slider p,#our-services, #about-us,#our-features,#our-projects,#our-records .record-content p{
+    text-align: center;
+  }
+  #our-process .process-text,#latest-news .news-text,#our-team .team-text,#our-products .services-text,#pricing-plan .plan-content p,#pricing-plan .pricing-plan-head .services-text,.slider-box,#our-services .our-services-head .services-text,#our-projects .our-projects-head .project-text,#our-records .record-content p{
+    max-width: 100%;
+    width: 100%;
+  }
+  #slider h2,#our-features .features-content h5 a{
+    font-size: 12px !important;
+    margin: 0;
+  }
+  #slider .slider-button-1, #slider .slider-button-2 {
+    padding: 7px;
+    font-size: 12px;
+  }
+  .slider-box {
+    top: 15%;
+    left: 0;
+    right: 0;
+  }
+  .test-icons span{
+    display: block;
+  }
+  h3:after,#our-records .record-content p:before,#pricing-plan .plan-content h4:after{
+    content: none !important;
+  }
+  #pricing-plan .plan-content p,.small-title,#our-records .record-content p{
+    transform: none;
+  }
+  .our-services-head h3, .about-us-head h3, .our-projects-head h3, .pricing-plan-head h3, .our-product-head h3, .why-choose-us-head h3, .our-team-head h3, .appointment-head h3, .our-process-head h3, #newsletter h3, .latest-news-head h3 {
+    font-size:22px;
+    padding: 5px 0;
+  }
+  #our-records{
+    padding: 0;
+  }
+  #testimonial-video .owl-carousel{
+    top:0;
+  }
+  .video{
+    margin: 20px 0;
+    top:12%;
+  }
+  #our-team .team-content span, #our-team .team-content p,#testimonial-video .test-icons span i,#our-team .team-content p i{
+    display: block;
+  }
+  #newsletter input[type="submit"],#about-us img{
+    margin-top: 10px !important;
+  }
+  .record-content.py-5.px-0.text-lg-left {
+    padding: 20px !important;
+  }
+  .record-content.py-5.px-0.text-lg-left {
+    padding: 20px !important;
+  }
+  #testimonial-video .testimonial-text{
+    max-width: 100%;
+  }
+  #testimonial-video .test-icons span i,#testimonial-video .test-icons a i,#our-team .team-content p i{
+    margin:5px 0;
+  }
+  #footer .gallery-item img{
+    padding: 0 7px;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px){ 
+  .logo{
+    position: unset;
+  }
+  #contact-details span {
+    font-size: 12px;
+    padding: 13px 7px 13px 9px !important;
+  }
+  #slider h2 {
+    font-size:17px;
+    margin: 0;
+  }
+  #slider .slider-box, #slider h2, #slider p{
+    text-align: center;
+  }
+  .slider-box{
+    max-width: 76%;
+  }
+  #slider .slide_nav{
+    display: none;
+  }
+}
+@media screen and (max-width: 1300px) and (min-width: 1025px){
+  #slider h2{
+    font-size: 20px;
+    margin: 0;
+  }
+  #about-us .about-text span{
+    font-size: 12px;
+  }
+  .video{
+    top:12%;
+  }
+  .video h3:after{
+    margin: 5px auto;
+  }
+  #contact-details span {
+    font-size: 12px;
+    padding: 13px 7px 13px 9px !important;
+  }
+}
+@media screen and (max-width: 1024px){
+  #contact-details i{
+    padding-left: 5px;
+  }
+  #contact-details span{
+    padding:18px 8px 18px 9px;
+  }
+  #why-choose-us .why-tabs li a{
+    width: 130px;
+  }
+  .home.page-template .container{
+    width: 100%;
+  }
+  #slider h2{
+    font-size: 20px;
+    margin: 0;
+  }
+  #header-menu .current_page_item{
+    border:none;
+  }
+  .headerbar {
+      display: block;
+      margin: 0;
+  }
+  .hamburger {
+      padding: 10px;
+  }
+  .main-header .side-navigation {
+      display: none
+  }
+  .side-navigation,.side-navigation li {
+      padding: 0;
+      display: block;
+      margin: 0;
+  }
+  .side-navigation ul li a {
+      padding: 10px;
+      display: block;
+      color: var(--color-white);
+      background: 0 0!important;
+      text-align: left;
+      line-height:20px;
+  }
+  amp-sidebar#sidebar1 {
+      background: var(--color-black-12);
+      width: 250px
+  }
+  #sidebar1 {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 9999999;
+      top: 0;
+      left: 0;
+      overflow-x: hidden;
+      transition: .5s
+  }
+  .side-navigation ul li ul, .side-navigation ul li ul ul {
+      display: block !important;
+      opacity: 1;
+      position: unset !important;
+      height: auto;
+      background-color:var(--color-black-12); 
+  }
+  .side-navigation ul ul li{
+      display: block;
+      padding-left: 7px;
+  }
+  .side-navigation ul.sub-menu li a:before{
+    content: none;
+  }
+  #our-products .product-content h4 a{
+    font-size: 13px;
+  }
+  #contact-details span {
+    font-size: 12px;
+    padding: 13px 7px 13px 9px !important;
+  }
+}
+@media screen and (max-width: 575px){
+  .about_me td {
+    width: 100%;
+}
+  .about_me tr {
+    display: inline-grid;
+}#footer,#footer ul li{
+    text-align:center !important
+  }
+}
+@media screen and (max-width: 767px){
+  #site_top .topbar-button{
+     margin-left: 20px;
+  }
+  .testimonial {
+    text-align: center;
+}
+  #appointment input[type=submit]{
+    margin: 0 auto;
+    display: block;
+  }
+  #footer,#footer ul li{
+    text-align:left
+  }
+}

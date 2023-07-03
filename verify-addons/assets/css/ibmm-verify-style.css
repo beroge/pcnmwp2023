@@ -1,0 +1,64 @@
+.ibmm-activation-notice{
+	background: linear-gradient(#6ccef5,#016194);
+    border-color: #016194;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 7px;
+    border-radius: 3px;
+    position: relative;
+    margin-left: 16px;
+    display: none;
+    transition: 1s;
+    font-size: 12px;
+}
+.ibmm-activation-notice:before{
+	content: "\f111";
+    display: inline-block;
+    font-family: dashicons;
+    font-size: 10px;
+    margin-right: 2px;
+}
+#menu-to-edit li.menu-item .menu-item-handle:hover .ibmm-activation-notice{
+	display: inline-block;
+}	
+.ibmm-menu-model{
+	display: none;
+}
+.ibmm-menu-model .ibmm-menu-body{
+	position: absolute;
+    background: #fff;
+    padding: 20px;
+    top: 50%;
+    max-width: 662px;
+    transform: translateY(-50%);
+    z-index: 5;
+    box-shadow: 0 0 6px #e2e2e2;
+    text-align: center;	
+}
+.ibmm-menu-model .ibmm-menu-body p{
+	font-size: 17px;
+    font-weight: 700;
+}
+.ibmm-menu-model .ibmm-menu-body a{
+	font-size: 15px;
+    font-weight: 700;
+    background: linear-gradient(#6ccef5,#016194);
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 16px;
+}
+.ibmm-menu-model .ibmm-menu-body .dashicons{
+	background: #016194;
+    color: #fff;
+    padding: 3px 3px;
+    border-radius: 3px;
+    float: right;
+    position: relative;
+    top: -5px;
+    left: 3px;
+    cursor: pointer;
+}

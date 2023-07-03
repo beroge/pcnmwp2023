@@ -1,0 +1,40 @@
+#customize-controls .control-section-vw-computer-repair-pro .accordion-section-title:hover,
+#customize-controls .control-section-vw-computer-repair-pro .accordion-section-title:focus {
+    background-color: #fff;
+}
+
+.control-section-vw-computer-repair-pro .accordion-section-title .button {
+    margin-top:  -4px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.rtl .control-section-vw-computer-repair-pro .accordion-section-title .button {
+    margin-left:  0;
+    margin-right: 8px;
+}
+a.review_st {
+    background: #016194 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    border: none !important;
+}
+.customize-control-title{
+    background-color: transparent !important;
+    color: #222 !important;
+}
+.simple-seperator-custom-control .customize-control-title{
+    background-color: #0073aa !important;
+}
+#customize-theme-controls .customize-control-title{
+   padding: 0px !important;
+}
+#customize-theme-controls .simple-seperator-custom-control .customize-control-title{
+   padding: 0 15px !important; 
+}
+.sirat-radio-img-selected{
+    border:2px solid #0085ba;
+}
+input#_customize-input-logo_size {
+    width: 100%;
+}
